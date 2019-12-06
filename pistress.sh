@@ -2,6 +2,10 @@
 
 counter=0
 
+sudo apt update
+sudo apt upgrade -y
+sudo apt-get install stress
+
 echo "Enter the number of cycles you want the stress test for: "
 read cycle
 clear
